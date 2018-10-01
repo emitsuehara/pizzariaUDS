@@ -1,0 +1,14 @@
+{
+    "require": {
+        "doctrine/orm": "2.5.*",
+        "slim/slim": "^3.0",
+        "laravel/lumen-installer": "^1.0",
+        "doctrine/common": "2.5.*",
+        "doctrine/dbal": "2.5.*",
+        "doctrine/couchdb": "dev-master",
+        "doctrine/couchdb-odm": "v1.0.0-alpha3"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "App/"}
+    }
+}
